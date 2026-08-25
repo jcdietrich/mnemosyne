@@ -1,0 +1,11 @@
+.gradle/
+.idea/
+*.iml
+local.properties
+build/
+app/build/
+*.log
+*.keystore
+*.jks
+# Model files (downloaded at runtime)
+app/src/main/assets/models/

@@ -1,0 +1,64 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1117196053064846870",
+      "lastPropertyId": "7:6412161189626736686",
+      "name": "Memory",
+      "properties": [
+        {
+          "id": "1:2201788279140566446",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1386245140896269826",
+          "name": "transcript",
+          "type": 9
+        },
+        {
+          "id": "3:8311473748694027216",
+          "name": "timestampUtcMs",
+          "type": 6
+        },
+        {
+          "id": "4:2241634636561662576",
+          "name": "latitudeDeg",
+          "type": 8
+        },
+        {
+          "id": "5:8114708865818065577",
+          "name": "longitudeDeg",
+          "type": 8
+        },
+        {
+          "id": "6:5308523726283880589",
+          "name": "embeddingVector",
+          "indexId": "1:4033885701263247545",
+          "type": 28,
+          "flags": 8
+        },
+        {
+          "id": "7:6412161189626736686",
+          "name": "locationName",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:1117196053064846870",
+  "lastIndexId": "1:4033885701263247545",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
