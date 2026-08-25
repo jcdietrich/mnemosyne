@@ -3,6 +3,8 @@ package com.mnemosyne.feed
 import com.mnemosyne.data.Memory
 import com.mnemosyne.data.MemoryRepository
 import com.mnemosyne.embedding.EmbeddingRepository
+import com.mnemosyne.stt.AudioRecorder
+import com.mnemosyne.stt.SttRepository
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk
@@ -80,6 +82,7 @@ class FeedViewModelTest {
     fun `clearing search resets displayed memories back to full chronological feed`() = runTest {
         val allMemories = listOf(Memory(id = 1, transcript = "General note"))
         coEvery { memoryRepository.memoriesFlow } returns flowOf(allMemories)
+        coEvery { memoryRepository.getPaged(0, any()) } returns allMemories
         coEvery { embeddingRepository.embed("query") } returns FloatArray(100)
         coEvery { memoryRepository.searchByVector(any(), any()) } returns emptyList()
         coEvery { locationRepository.getCurrentLocation() } returns null
