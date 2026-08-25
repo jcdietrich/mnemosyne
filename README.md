@@ -4,7 +4,7 @@
 
 # Mnemosyne
 
-An on-device personal memory prosthetic for Android.
+(nə-MOSS-ə-nee) An on-device personal memory prosthetic for Android.
 
 ## Overview
 
