@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" width="128" height="128" alt="Mnemosyne Icon" />
+  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="Mnemosyne Icon" />
 </p>
 
 # Mnemosyne
