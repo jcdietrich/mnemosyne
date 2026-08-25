@@ -6,6 +6,12 @@
 
 (nə-MOSS-ə-nee) An on-device personal memory prosthetic for Android.
 
+<p align="center">
+  <img src="docs/images/main_screen.png" width="300" alt="Mnemosyne Main Screen" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/images/detail_screen.png" width="300" alt="Mnemosyne Detail Screen" />
+</p>
+
 ## Overview
 
 Mnemosyne helps people with SDAM (Severely Deficient Autobiographical Memory) capture and retrieve episodic memories. All AI inference (STT, embedding, vector search) runs entirely on-device with no data sent to remote servers.
